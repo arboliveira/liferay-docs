@@ -9,7 +9,7 @@ form when creating or editing an asset, you'll find an interface for adding tags
 and categories. If no categories are available to be added to the asset (e.g.,
 if no categories have been created), the *Select* option won't appear.
 
-![Figure 1: Here, the Web Content application's form for categorizing a new web content article includes a Categories *Select* option since categories exist.](../../../images/web-content-categorization.png)
+![Figure 1: Here, the Web Content application's form for categorizing a new web content article includes the categories *Color* and *Type* with *Select* options, since categories exist.](../../../images/web-content-categorization.png)
 
 +$$$
 
@@ -33,13 +33,14 @@ when you enter it. You'll take a closer look at tags and categories next.
 
 Tags are an important tool that can help organize information in @product@ and
 make it easier for users to find the content that they're interested in. Tags
-are words or phrases that you can attach to any content on the website. Tagging
-content makes your search results more accurate and enables you to use tools
-like the Asset Publisher to display content in an organized fashion on a web
-page. There are two ways to create tags: you can do it through the
-administrative console in the Site Administration section of the Menu or on the
-fly as content is created. By default, tags can be created by regular users and
-users can apply them to any assets which they have permission to create or edit.
+are lowercase words or phrases that you can attach to any content on the
+website. Uppercase characters in tags aren't recognized. Tagging content makes
+your search results more accurate and enables you to use tools like the Asset
+Publisher to display content in an organized fashion on a web page. There are
+two ways to create tags: you can do it through the administrative console in the
+Site Administration section of the Menu or on the fly as content is created. By
+default, tags can be created by regular users and users can apply them to any
+assets which they have permission to create or edit.
 
 While regular users can, by default, create new tags by applying them to any
 assets that they have permission to create or edit, only site administrators can
@@ -169,8 +170,8 @@ separated widgets for every vocabulary.
 Targeted Vocabularies allow you to decide which vocabularies can be applied to
 an asset type and which vocabularies are required for an asset type. To
 configure these settings, go to the Categories application in Site
-Administration and mouse over the vocabulary in the list until you see the edit
-icon to the right. Select the icon to reveal a dialog box like the one below.
+Administration and select a vocabulary's *Actions* icon. Select the *Associated
+Asset Types* tab to reveal a dialog box like the one below.
 
 ![Figure 4: You can target vocabularies by checking the *Allow Multiple Categories* selector and then selecting the Asset Types.](../../../images/targeted-vocabularies.png)
 

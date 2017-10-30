@@ -4,7 +4,7 @@ You've successfully created a site for your Liferay instance, but you may need
 to add new pages or edit existing pages. From the Site Administration &rarr;
 *Navigation* section of the Menu, your site pages can be accessed and
 configured. If you're not currently on the site you'd like to edit, click the
-*Compass* icon (![Compass](../../../images/icon-compass.png)) next to your
+*Site Selector* button (![Compass](../../../images/icon-compass.png)) next to your
 current site name in the Menu and select your desired site. The edits you make
 to your pages are only made to the scope you've selected in the Menu.
 
@@ -17,9 +17,9 @@ select *Add Private Page* to add a private site page. You can manage a plethora
 of options from the Navigation menu including page name, page layout, and page
 template.
 
-You can also edit pages from the Navigation menu. To do this, select *Edit* from
-the Options icon next to a page or page set, which allows you to
-edit the page's basic information and configuration options.
+You can also edit pages from the Navigation menu. To do this, select *Configure*
+from the Options icon next to a page or page set, which allows you to edit the
+page's basic information and configuration options.
 
 ![Figure 2: The *Options* button next to a page or page set allows you to add a child page, edit the existing page(s), or delete the page(s).](../../../images/web-content-managing-single-page.png)
 
@@ -141,10 +141,10 @@ select *Expand* to see a full view of your page hierarchy.
 ![Figure 4: Expanding your page view gives you much more room to visualize your page hierarchy.](../../../images/expand-page-hierarchy.png)
 
 As stated previously, if you ever need to modify the page you've created for
-your site, select the *Edit* button from the Options button from the Navigation
-menu in the Menu. When configuring a specific page, you're given more options
-than when you were creating a new page. These extended options for configuring
-specific pages are covered in more detail later in this section.
+your site, select the *Configure Page* button from the Options button from the
+Navigation menu in the Menu. When configuring a specific page, you're given more
+options than when you were creating a new page. These extended options for
+configuring specific pages are covered in more detail later in this section.
 
 There are also configuration options that are only available for either
 indiviual pages or page groups only. You'll learn about options available for
@@ -156,14 +156,21 @@ private pages as a whole, and the individual pages residing within those groups.
 
 ### Customizing the Look and Feel of Site Pages [](id=customizing-the-look-and-feel-of-site-pages)
 
-When you select *Edit Public Pages*, it defaults to the Look and Feel tab. On
-this tab, you're presented with an interface that allows you to choose a theme
-for the current site. Themes can transform the entire look of the portal. They
-are created by developers and are easily installed using the Liferay
+When you select *Configure* for a page set, it defaults to the Look and Feel
+tab. On this tab, you're presented with an interface that allows you to choose a
+theme for the current site. Themes can transform the entire look of the portal.
+They are created by developers and are easily installed using the Liferay
 Marketplace. Since you don't have any themes beyond the default one installed
 yet, you'll use the default theme for your pages.
 
 ![Figure 5: The Look and Feel interface allows you to choose a theme for the current site.](../../../images/look-and-feel-pages.png)
+
+You can apply themes to individual pages as well by selecting the 
+*Configure Page* option for a page and selecting the 
+*Define a specific look and feel for this page* option under the *Look and Feel* 
+category. 
+
+![Figure 6: You can define a specific look and feel for a page.](../../../images/define-a-specific-look-and-feel.png)
 
 Many themes include more than one color scheme. This allows you to keep the
 existing look and feel while giving your site a different flavor. The *Color
@@ -204,7 +211,7 @@ The next option configures the logo that appears for your site.
 
 By default, the Liferay logo is used for your site pages' logo. If you want to
 use your own logo for a specific site, use the *Logo* tab. Adding a custom logo
-is easy: select the *Logo* tab from the *Edit Public Pages* interface and browse
+is easy: select the *Logo* tab from the *Configure* interface and browse
 to the location of your logo. Make sure your logo fits the space in the top left
 corner of the theme you're using for your web site. If you don't, you could wind
 up with a site that's difficult to navigate, as other page elements are pushed
@@ -231,8 +238,8 @@ Using the JavaScript window may be useful if your site's theme does *not* use
 JavaScript. In this case, the JavaScript window will contain *all* of your
 site's JavaScript and you can add some dynamic features to your site's pages.
 
-Next, you'll look at an advanced features of the *Edit Public Pages* interface:
-merging the current site's pages with the pages of the default site.
+Next, you'll look at an advanced features of the *Configure* interface: merging
+the current site's pages with the pages of the default site.
 
 ### Merging Pages From Other Sites [](id=merging-pages-from-other-sites)
 
@@ -286,7 +293,7 @@ including the theme.
 <!-- Add following sentence when this section is available (App not available
 for CE) -Cody:
 The set up for this option is explained in the
-[Displaying Site Pages to Mobile Devices](/discover/portal/-/knowledge_base/7-0/displaying-site-pages-to-mobile-devices)
+[Displaying Site Pages to Mobile Devices](/discover/portal/-/knowledge_base/7-0/displaying-pages-on-mobile-devices)
 section.
 -->
 
@@ -322,9 +329,9 @@ When you decide to customize a single page, some different options that were not
 available when initially creating a page appear. Customizing a specific page can
 be done by navigating to the Navigation menu in the main Menu and selecting the
 *Options* icon next to the specific page you'd like to edit from the navigation
-tree. From the Options dropdown, select *Edit*. There are three groups that the
-options for customizing a specific page can be defined under. You'll learn what
-each group offers for your site pages.
+tree. From the Options dropdown, select *Configure Page*. There are three groups
+that the options for customizing a specific page can be defined under. You'll
+learn what each group offers for your site pages.
 
 ### Managing Page Content [](id=managing-page-content)
 
@@ -438,7 +445,7 @@ from the Sitemaps and Robots tabs of the Manage Site Settings dialog box (see
 below).
 
 In previous versions of Liferay, it was possible that a single page
-could be indexed multiple times. In Liferay 6.1, all URLs that direct to the
+could be indexed multiple times. In Liferay Portal 6.1, all URLs that direct to the
 same page will only create one entry in the index. Previously, the simple URL
 *http\://www.lunar-resort.com/web/guest/blog/-/blogs/themoon* and different
 versions of the URL which provided additional information about the referring
@@ -496,7 +503,7 @@ Collaboration apps to the Lunar Resort site.
 See how easy it is to add applications to your pages? You've added the Wiki
 app and Blogs Aggregator app to a page. 
 
-![Figure 6: Your page layout options are virtually limitless with a slew of application and layout combinations.](../../../images/app-layout-design.png)
+![Figure 7: Your page layout options are virtually limitless with a slew of application and layout combinations.](../../../images/app-layout-design.png)
 
 It's easy to make your pages look exactly the way you want them to. If the
 default layout options provided aren't enough, you can even develop your own.
@@ -518,12 +525,12 @@ of a page layout. Page customizations are only visible to the user who made the
 customizations. By default, site members can make page customizations but
 non-site members and guests can't.
 
-To enable page customizations as an administrator, first click *Edit* from the
-*Options* button next to the Page you'd like to let site members modify. Then
-select the *Advanced* tab at the top of the page, expand the *Customization
-Settings* area, and click on the *Customizable* selector button. 
+To enable page customizations as an administrator, first click *Configure Page*
+from the *Options* button next to the Page you'd like to let site members
+modify. Then select the *Advanced* tab at the top of the page, expand the
+*Customization Settings* area, and click on the *Customizable* selector button. 
 
-![Figure 7: To enable page customizations, click on the *Edit* button next to the page, expand the *Customization Settings* area, and click on the *Customizable* button.](../../../images/page-customizations.png)
+![Figure 8: To enable page customizations, click on the *Configure Page* button next to the page, expand the *Customization Settings* area, and click on the *Customizable* button.](../../../images/page-customizations.png)
 
 Once you've enabled the *Customizable* selector, you can select the sections of
 the page you'd like to enable customization for, depending on the layout
@@ -531,14 +538,13 @@ template of your page. Enable one or more of the *Customizable* sections to
 allow site members to customize certain sections of the page. Regions that
 you've designated as customizable are colored blue.
 
-When site members visit your customizable page, they'll see the *Edit Pencil*
-icon (![Edit Pencil](../../../images/icon-edit-pencil.png)) with a notification
-saying *You can customize this page*. Site members can toggle whether to view or
-hide the customizable regions. If you toggle the selector to view customizable
-regions, the regions on the page are color-coded to help distinguish
-customizable vs. non-customizable sections of the page.
+When site members visit your customizable page, they'll see an extended Control
+Menu with a notification saying *You can customize this page*. Site members can
+toggle whether to view or hide the customizable regions. If you toggle the
+selector to view customizable regions, the regions on the page are color-coded
+to help distinguish customizable vs. non-customizable sections of the page.
 
-![Figure 8: Customizable regions are colored green and non-customizable regions are colored red.](../../../images/color-coded-customizable-regions.png)
+![Figure 9: Customizable regions are colored green and non-customizable regions are colored red.](../../../images/color-coded-customizable-regions.png)
 
 Site members can also choose between viewing their customized page and viewing
 the default page by selecting the *Options* button
@@ -569,7 +575,7 @@ Users can make two kinds of customizations to customizable regions. First, they
 can configure applications within the customizable regions. Second, they can add
 apps to or remove apps from the customizable regions.
 
-![Figure 9: Customizable areas are highlighted green when organizing apps on the page.](../../../images/customizable-regions.png)
+![Figure 10: Customizable areas are highlighted green when organizing apps on the page.](../../../images/customizable-regions.png)
 
 @product@ doesn't allow users to change a non-instanceable app's configuration
 inside a customizable region since those kinds of apps are tied to the site to
@@ -583,9 +589,9 @@ the Welcome page of the Lunar Resort site to be customizable. A member of the
 Lunar Resort site could take the following steps to make a personal
 customization of the Welcome page:
 
-1. Navigate to the Welcome homepage by navigating to the Site Administration
-   *Compass* (![Compass](../../../images/icon-compass.png)) and selecting the
-   Lunar Resort site.
+1. Navigate to the Welcome homepage by clicking the Site Administration's
+   *Site Selector* button (![Compass](../../../images/icon-compass.png)) and
+   selecting the Lunar Resort site.
 2. Add the Language Selector app to the right column of the page by clicking the
    *Add* icon, clicking on *Applications*, searching for *Language Selector*,
    and clicking *Add* next to its name.
@@ -596,7 +602,7 @@ select their language in the Language Selector app to view a translation of your
 site into their native language. After closing the Configuration dialog box of
 the Language Selector app, the customized Welcome page looks like this:
 
-![Figure 10: In this example, the user added the Language app, and changed the display style from icons to a select box.](../../../images/customized-portal-homepage.png)
+![Figure 11: In this example, the user added the Language app, and changed the display style from icons to a select box.](../../../images/customized-portal-homepage.png)
 
 To allow users to customize a page, administrators must grant users permission
 to *Customize* pages under the Site section. This can be achieved by assigning
@@ -630,7 +636,8 @@ this with the following procedure:
    Page*. Remember, these pages by default are viewable only by members of the
    site.
 2. Create a page called *Admin Tips*.
-3. Click *Edit* from the Options button dropdown for the page in the left menu.
+3. Click *Configure Page* from the Options button dropdown for the page in the
+   left menu.
 4. Select *Permissions* from the *Options* icon
    (![Options](../../../images/icon-options.png)) in the top right corner of the
    screen.
@@ -638,7 +645,7 @@ this with the following procedure:
    role.
 5. Click the *Save* button.
 
-![Figure 11: The Permissions offer a plethora of options for each role.](../../../images/web-content-page-permissions.png)
+![Figure 12: The Permissions offer a plethora of options for each role.](../../../images/web-content-page-permissions.png)
 
 Congratulations! You've changed the permissions for this page so only site
 administrators can view it. Any users you add to this role can now see the page.

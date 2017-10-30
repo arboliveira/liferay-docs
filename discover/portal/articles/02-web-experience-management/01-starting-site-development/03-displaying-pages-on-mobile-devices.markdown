@@ -23,16 +23,14 @@ learn every detail about a device from the device type, which is included in
 each request sent to Liferay. @product@'s Mobile Device Rules can connect to
 device databases so that you can use their device characteristics in your rules. 
 
-<!-- Liferay connects to the [DATABASE_NAME] database automatically behind the
-scenes to provide device recognition access automatically. -->
-
 +$$$
 
-**Important:** At the time of this writing, Liferay 7.0 CE GA1 is not connected
-to a device database by default. Currently, the only way to create Mobile Device
-Families and Rules effectively is to integrate with other device databases using
-Liferay APIs. Once you have access to a device database, you can proceed with
-the instructions in this section.
+**Important:** For the features described in this article to work, you must 
+install the Liferay Mobile Device Detection (LMDD) app from the Liferay 
+Marketplace. This app provides the device detection database that's required for 
+your @product@ instance to detect which mobile devices are accessing it. 
+[Click here](/discover/portal/-/knowledge_base/7-0/using-the-liferay-marketplace) 
+for instructions on using Liferay Marketplace to find and install apps. 
 
 $$$
 
@@ -78,16 +76,17 @@ $$$
 <!-- Update the link above for 7.0, when available. -Cody -->
 
 You can add actions to a family from the Navigation menu of Site Administration.
-Select a page set's (e.g., Public Pages) *Options* button
-(![Options](../../../images/icon-options.png)) and then select the *Advanced*
-tab and the *Mobile Device Rules* option in the bottom menu. Use the *Select*
-button to select families to be applied either to a page group or to a single
-page. If you select the page group itself from the left-hand menu, the selected
-family applies to all the pages of the site by default. If, however, you select
-an individual page and then click the *Select* button, the families apply only
-to that page. You can select multiple families for a particular site or page and
-order them by priority. The families are checked in decreasing order of
-priority: the actions defined by the first family that applies are executed.
+Select a page set's (e.g., Public Pages) *Options*
+(![Options](../../../images/icon-options.png)) &rarr; *Configure* button and
+then select the *Advanced* tab and the *Mobile Device Rules* option in the
+bottom menu. Use the *Select* button to select families to be applied either to
+a page group or to a single page. If you select the page group itself from the
+left-hand menu, the selected family applies to all the pages of the site by
+default. If, however, you select an individual page and then click the *Select*
+button, the families apply only to that page. You can select multiple families
+for a particular site or page and order them by priority. The families are
+checked in decreasing order of priority: the actions defined by the first family
+that applies are executed.
 
 ![Figure 3: You can select a mobile device family to apply for a site or page from the Navigation section of Site Administration.](../../../images/mobile-device-selection.png)
 
